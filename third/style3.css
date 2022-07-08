@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background-color: #258581;
+}
+
+h3 {
+    color: orange;
+    font-size: 30px;
+    margin: 0 0 10px;
+}
+
+p {
+    color: #817e7e;
+    margin: 0;
+}
+
+
+.main {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.container {
+    min-height: 200px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fffdfd;
+    border-radius: 10px;
+
+}
+
+.icon {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.fa-brands {
+    font-size: 100px;
+    color: #817e7e;
+}
+
